@@ -5,6 +5,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Predicate;
 
 import static junit.framework.TestCase.assertFalse;
 import static junit.framework.TestCase.assertTrue;
@@ -26,5 +27,9 @@ public class TestSimpleNumber {
         nonPrime.stream().forEach(integer -> assertFalse(SimpleNumber.isPrime(integer)));
 
         primes.stream().forEach(System.out::println);
+    }
+    @Test
+    public void test9() {
+        SimpleNumber.test("Hello world", s->s.length()>10);
     }
 }
