@@ -5,6 +5,7 @@ import java.util.stream.LongStream;
 public class Main {
 
     public static void main(String[] args) {
+
         System.out.println(sumOfOddNumbersInRange(1, 99));
     }
     public static long sumOfOddNumbersInRange(long start, long end) {

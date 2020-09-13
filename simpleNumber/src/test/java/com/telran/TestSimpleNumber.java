@@ -28,8 +28,8 @@ public class TestSimpleNumber {
 
         primes.stream().forEach(System.out::println);
     }
-    @Test
-    public void test9() {
+    //@Test
+    /*public void test9() {
         SimpleNumber.test("Hello world", s->s.length()>10);
-    }
+    }*/
 }

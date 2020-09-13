@@ -23,9 +23,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bca6cc9-6b4a-467f-8170-921f30ab2745" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../TelRan/src/main/java/com/telran/predicates/BlockedAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../factorial/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sum.of.odd.numbers/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TelRan/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TelRan/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TelRan/src/main/java/com/telran/predicates/ListPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TelRan/src/main/java/com/telran/predicates/ListPredicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TelRan/src/test/java/com/telran/FilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TelRan/src/test/java/com/telran/FilterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TelRan/target/classes/com/telran/predicates/ListPredicate$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TelRan/target/classes/com/telran/predicates/ListPredicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TelRan/target/classes/com/telran/predicates/ListPredicate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TelRan/target/test-classes/com/telran/FilterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TelRan/target/test-classes/com/telran/FilterTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/SimpleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/SimpleNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/TestSimpleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/TestSimpleNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/SimpleNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/telran/SimpleNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/telran/TestSimpleNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/telran/TestSimpleNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sum.of.odd.numbers/out/production/sum.of.odd.numbers/com/telran/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sum.of.odd.numbers/out/production/sum.of.odd.numbers/com/telran/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sum.of.odd.numbers/src/com/telran/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sum.of.odd.numbers/src/com/telran/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +70,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="JUnit.TestSimpleNumber.testNumberIsNotPrime">
+  <component name="RunManager" selected="JUnit.TestSimpleNumber.testNumberIsPrime">
     <configuration name="SimpleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.telran.SimpleNumber" />
       <module name="simpleNumber" />
@@ -122,8 +136,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestSimpleNumber.testNumberIsNotPrime" />
         <item itemvalue="JUnit.TestSimpleNumber.testNumberIsPrime" />
+        <item itemvalue="JUnit.TestSimpleNumber.testNumberIsNotPrime" />
         <item itemvalue="Application.SimpleNumber" />
         <item itemvalue="JUnit.TestSimpleNumber" />
       </list>
@@ -153,27 +167,40 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1599321050254">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1599321050254" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1599409459105">
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1599474354711">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599409459105" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1599409459105">
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1599474354711" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1599491225965">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599409459105" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1599409459105">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599491225965" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1599491225965">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599409459105" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1599409459105">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599491225965" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1599491225965">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599409459105" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599491225965" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1599491225965">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599491225965" />
+    <state x="232" y="0" key="new project wizard" timestamp="1599560357071">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="232" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1599560357071" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1599468256393">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1599468256393" />
   </component>
 </project>

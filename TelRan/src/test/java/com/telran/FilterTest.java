@@ -1,5 +1,6 @@
 package com.telran;
 
+import com.telran.predicates.BlockedAccount;
 import com.telran.predicates.ListPredicate;
 import com.telran.predicates.NotBlockedPredicate;
 import com.telran.predicates.PositiveBalancePredicate;
@@ -21,6 +22,8 @@ public class FilterTest {
     void tearDown() {
     }
 
+
+
     @Test
     public void testListPredicate() {
                 List<Account> accountList = Arrays.asList(
@@ -31,13 +34,13 @@ public class FilterTest {
         );
         AccountFilter accountFilter = new AccountFilter();
         List<Predicate<Account>> predicates = Arrays.asList(
-                new PositiveBalancePredicate());
+                new NotBlockedPredicate());
                List<Account> result = accountFilter.filter(accountList,
                 ListPredicate.complexPredicate(predicates)
         );
         List<Account> expectedList = Arrays.asList(
                 new Account("4", 200000L, false));
-       // Assert.assertEquals(result, expectedList);
+      Assert.assertEquals(result, expectedList);
         result.stream().forEach(System.out::println);
 
 
