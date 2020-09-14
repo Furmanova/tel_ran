@@ -16,14 +16,19 @@ public class CalculateUrl {
     }
 
     public static Map<String, Integer> countUniqueUsers2(List<LogEntry> logEntries) {
-        Map<String, Set<String>> usernameMap = logEntries.stream()
+       /* Map<String, Set<String>> usernameMap = logEntries.stream()
                 .collect(groupingBy(LogEntry::getUrl,
                         mapping(LogEntry::getUserName, toSet())));
         return usernameMap.entrySet().stream()
                 .collect(Collectors.toMap(
                         entry -> entry.getKey(),
                         entry -> entry.getValue().size()
-                ));
+                ));*/
+        return logEntries.stream()
+                .collect(groupingBy(LogEntry::getUrl,
+                        mapping(LogEntry::getUserName,
+                                collectingAndThen(toSet(), Set::size)))
+                );
     }
 
     public static Map<String, Integer> uniqueUrl3(List<LogEntry> logEntries) {

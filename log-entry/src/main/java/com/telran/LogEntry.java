@@ -24,6 +24,4 @@ public class LogEntry {
         public String getUrl() {
         return url;
     }
-
-
 }
