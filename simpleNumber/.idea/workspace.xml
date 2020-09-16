@@ -23,8 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bca6cc9-6b4a-467f-8170-921f30ab2745" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../log-entry/src/main/java/com/telran/CalculateUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../log-entry/src/main/java/com/telran/CalculateUrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../log-entry/src/main/java/com/telran/LogEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../log-entry/src/main/java/com/telran/LogEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TelRan/TelRan" beforeDir="false" afterPath="$PROJECT_DIR$/../TelRan/TelRan" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
