@@ -42,9 +42,6 @@ public class  TimePeriodForWorkers {
 //        System.out.println("NY start " + zonedDateTimeNyStart);
 //        System.out.println("NY end " + zonedDateTimeNyEnd);
 
-
-
-
     }
 }
 
