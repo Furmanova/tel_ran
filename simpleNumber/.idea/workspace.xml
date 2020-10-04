@@ -24,6 +24,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9bca6cc9-6b4a-467f-8170-921f30ab2745" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../TelRan/TelRan" beforeDir="false" afterPath="$PROJECT_DIR$/../TelRan/TelRan" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-UDP/src/com/telran/UDPClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-UDP/src/com/telran/UDPClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server-UDPS/src/com/telran/UDPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server-UDPS/src/com/telran/UDPServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/com/telran/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/com/telran/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

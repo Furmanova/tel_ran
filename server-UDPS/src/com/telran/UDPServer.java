@@ -1,12 +1,15 @@
 package com.telran;
 
-import
+
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
-import
+
 
 public class UDPServer {
+    public static String reverse(String in){
+        return new StringBuilder(in).reverse().toString();
+    }
     public static void main(String args[]) throws Exception
     {
         DatagramSocket serverSocket = new DatagramSocket(9876);
@@ -16,9 +19,11 @@ public class UDPServer {
         while(!sentence.equalsIgnoreCase("exit"))
         {
             byte[] receiveData = new byte[1024];
-            DatagramPacket receivePacket = new DatagramPacket(receiveData, receiveData.length);
+            DatagramPacket receivePacket =
+                    new DatagramPacket(receiveData, receiveData.length);
             serverSocket.receive(receivePacket);
-             sentence = new String(receivePacket.getData(), 0, receivePacket.getLength());
+             sentence =
+                     new String(receivePacket.getData(), 0, receivePacket.getLength());
             System.out.println("RECEIVED: " + sentence);
             InetAddress IPAddress = receivePacket.getAddress();
             int port = receivePacket.getPort();

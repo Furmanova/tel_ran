@@ -8,7 +8,7 @@ import java.net.Socket;
 
 public class Main {
     static final String SERVER_HOST = "localhost";
-    static final int SERVER_PORT = 3000;
+    static final int SERVER_PORT = 3001;
     public static void main(String[] args) throws IOException {
         Socket socket =new Socket(SERVER_HOST,SERVER_PORT);
 
