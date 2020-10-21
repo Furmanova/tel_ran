@@ -24,9 +24,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9bca6cc9-6b4a-467f-8170-921f30ab2745" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../TelRan/TelRan" beforeDir="false" afterPath="$PROJECT_DIR$/../TelRan/TelRan" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-UDP/src/com/telran/UDPClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-UDP/src/com/telran/UDPClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server-UDPS/src/com/telran/UDPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server-UDPS/src/com/telran/UDPServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/com/telran/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/com/telran/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,9 +57,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager" selected="JUnit.TestSimpleNumber.testNumberIsPrime">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SimpleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.telran.SimpleNumber" />
       <module name="simpleNumber" />
@@ -143,8 +153,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599320127690</updated>
+      <workItem from="1602062234973" duration="34000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -187,9 +201,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="232" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1599560357071" />
-    <state x="297" y="151" key="run.anything.popup" timestamp="1599468256393">
+    <state x="297" y="151" key="run.anything.popup" timestamp="1603279523552">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1599468256393" />
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1603279523552" />
   </component>
 </project>
