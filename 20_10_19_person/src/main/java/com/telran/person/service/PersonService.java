@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 
 import javax.persistence.EntityNotFoundException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 @Service
@@ -64,7 +63,7 @@ public class PersonService {
     }
 
     public List<Person> getAllByAgeBetween(int after, int before) {
-        return new ArrayList<>(personRepo.findAllByAgeBeforeTwoValues(after, before));
+        return new ArrayList<>(personRepo.findAllByAgeBetween(after, before));
     }
 
     public List<Person> getAllBySecondNameEndingWith(String secondName) {

@@ -69,7 +69,8 @@ public class PersonController {
 
     @GetMapping("/persons/age")
     public List<Person> getAllByAgeBetween(@RequestParam(required = false, defaultValue = "0") int after,
-                                           @RequestParam(required = false, defaultValue = "" + Integer.MAX_VALUE) int before) {
+                                           @RequestParam(required = false, defaultValue = "" + Integer.MAX_VALUE)
+                                                   int before) {
 
         return personService.getAllByAgeBetween(after, before);
     }
