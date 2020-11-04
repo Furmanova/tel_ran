@@ -1,9 +1,11 @@
 package com.telran;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class Words {
     public static void main(String[] args) {
+
 
         String words = "acb a cab abc bac baa";
 
@@ -13,11 +15,17 @@ public class Words {
             List<String> list = items.computeIfAbsent(key, k -> new ArrayList<>());
             list.add(word);
         }
-        System.out.println(items);
-// {a=[acb, a, abc], b=[bac, baa], c=[cab]}
 
+        items.entrySet().stream()
+                .map(Map.Entry::getValue)
+                .forEach(list -> list.sort(Comparator.comparing((String x) -> x)));
+        System.out.println(items);
+        // {a=[a, abc, acb], b=[baa, bac], c=[cab]}
     }
+
 }
+
+
 
 
 
