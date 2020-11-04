@@ -1,0 +1,2 @@
+com/telran/Words.java
+ com.telran.Words
