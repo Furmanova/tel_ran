@@ -1,9 +1,10 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 
 import {Person} from '../../model/person';
 import {PersonService} from '../../service/person.service';
 import {PersonFormComponent} from '../person-form/person-form.component';
 import {PersonsComponent} from '../persons.component';
+import {PersonEventService} from '../../service/personEventService';
 
 
 @Component({
@@ -12,28 +13,28 @@ import {PersonsComponent} from '../persons.component';
   styleUrls: ['./person-item.component.css']
 })
 export class PersonItemComponent implements OnInit {
+  @Output()
+  personDeleted = new EventEmitter<Person>();
   @Input()
   person: Person;
 
-  @Input()
-  parent: PersonsComponent;
-
-
-  constructor(private personService: PersonService) {
+  constructor(private personService: PersonService,
+              private personEventService: PersonEventService) {
   }
 
   ngOnInit(): void {
 
   }
 
-  onDeletePerson(person: Person): void {
-    this.personService.remove(person).subscribe();
-    this.parent.persons = this.parent.persons.filter(p => p !== person);
+  onDeletePerson(): void {
+    this.personService.remove(this.person).subscribe(removePerson => {
+        this.personDeleted.emit(removePerson);
+        this.person = {};
+      }
+    );
   }
 
-  onEditPerson(person: Person): void {
-
+  onEditPerson(): void {
+    this.personEventService.addPersonToEdit(this.person);
   }
-
-
 }

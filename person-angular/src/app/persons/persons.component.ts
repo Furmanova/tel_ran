@@ -22,12 +22,15 @@ export class PersonsComponent implements OnInit {
     return await this.personService.getAll().toPromise();
   }
 
-  getSelf(): PersonsComponent {
-    return this;
-  }
-
   onPersonCreated(newPerson: Person): void {
     this.persons.push(newPerson);
+  }
+  onPersonEdited(person: Person): void{
+    const idx = this.persons.findIndex(o => o.id === person.id );
+    this.persons[idx] = person;
+  }
+  onPersonDeleted(person: Person): void {
+    this.persons = this.persons.filter(p => p.id !== person.id);
   }
 }
 

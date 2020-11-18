@@ -26,19 +26,19 @@ export class PersonService {
   add(person: Person): Observable<Person> {
     return this.httpClient.post<Person>(this.PERSONS_URI, person);
   }
-
-  //
-  // edit(person: Person): Observable<void> {
-  //
-  // }
-  //
+  edit(person: Person): Observable<Person> {
+    const url = `${this.PERSONS_URI}/${person.id}`;
+    return this.httpClient.put<Person>(url, person);
+  }
   remove(person: Person): Observable<Person> {
     const url = `${this.PERSONS_URI}/${person.id}`;
     return this.httpClient.delete<Person>(url, this.httpOptions);
   }
 
-  //
-  // get(id: number): Observable<Person> {
-  //
-  // }
+
+  getPerson(id: number): Observable<Person> {
+    const url = `${this.PERSONS_URI}/${id}`;
+    return this.httpClient.get<Person>(url, this.httpOptions);
+
+  }
   }
